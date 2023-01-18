@@ -1,0 +1,100 @@
+header {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.parent-container {
+    background-color: #f9fafc;
+    font-family: 'Open Sans', sans-serif;
+    color: #000 ;
+    display: flex;
+}
+.parent-container {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #69696a
+}
+.child-item:first-child {
+font-weight: bold;
+display: flex;
+}
+
+.child-item.one {
+background: purple;
+}
+.child-item.two {
+background: aliceblue;
+}
+.child-item.three {
+background: grey;
+align-items: baseline;
+}
+button {
+color: #f9fafc;
+background-color: black;
+border-radius: 10px;
+width: 100%;
+padding: 5px;
+border: none;
+width: 50%;
+}
+h1 {
+    color: #000;
+}
+p {
+    font-size: 12pt;
+    border-left: solid #000;
+    padding: 10px;
+    color:#69696a;
+    width: 50%;
+    text-align: initial;
+    }
+    div {
+        display: flex;
+    }
+
+    .circle1 {
+        height: 200px;
+        width: 200px;
+        background-color: rgba(247, 136, 167, 0.6);
+        padding:20px;
+        margin: 20px;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        top: 50%;
+        left:50%;
+        transform: translate(90%, -95%);
+    }
+    .circle2 {
+        height: 175px;
+        width: 175px;
+        background-color:  rgba(247, 193, 162, 0.7);
+        Padding:8px;
+        margin: 10px;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        top: 50%;
+        left:50%;
+        transform: translate(50%, -115%);
+    }
+    .circle3 {
+        height: 100px;
+        width: 100px;
+        background-color: rgba(207, 130, 213, 0.6);
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        top: 50%;
+        left:50%;
+        transform: translate(-100%, -370%);
+    }
+/*
+    <div class="parent-container">
+      <div class="child-item">Chirpus Inc.</div>
+          <div class="child-item one">Work</div>
+          <div class="child-item two">About us</div>
+          <div class="child-item three">Contact</div>
+          <div class="button">Hire us</div>
